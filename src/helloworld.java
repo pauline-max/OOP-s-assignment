@@ -1,3 +1,6 @@
+//Adimission number: CT101/G/20337/23
+// NAME: Wachira Pauline Wambere
+// this code prints hello world!
 public class helloworld {
     
     public static void main(String[] args) {
@@ -6,9 +9,7 @@ public class helloworld {
     }
     
 }
-//Adimission number: CT101/G/20337/23
-// NAME: Wachira Pauline Wambere
-// this progam prints hello world!
+
 
 
 

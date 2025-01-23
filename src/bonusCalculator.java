@@ -1,3 +1,6 @@
+//Adimission number: CT101/G/20337/23
+// NAME: Wachira Pauline Wambere
+// This code calculates the bonus amount for employees based on their salary and years of service
 import java.util.Scanner;
 
 public class bonusCalculator {
@@ -5,7 +8,7 @@ public class bonusCalculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter number of years in service: ");
-        int numberOfYears = scanner.nextInt(); // Use int for whole years
+        int numberOfYears = scanner.nextInt(); 
 
         System.out.print("Enter salary: ");
         double salary = scanner.nextDouble();
@@ -13,7 +16,7 @@ public class bonusCalculator {
         double bonusPercentage;
         if (numberOfYears < 0) {
             System.out.println("Invalid number of years");
-            bonusPercentage = 0; // Set bonus to 0 for invalid input
+            bonusPercentage = 0; 
         } else if (numberOfYears > 10) {
             bonusPercentage = 0.12;
         } else if (numberOfYears >= 6) {
@@ -29,3 +32,4 @@ public class bonusCalculator {
         scanner.close();
     }
 }
+

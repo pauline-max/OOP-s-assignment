@@ -1,3 +1,6 @@
+//Adimission number: CT101/G/20337/23
+// NAME: Wachira Pauline Wambere
+// this code sums up 2 values 5 and 7 and display the sum
 public class sum {
     public static void main(String[] args){
         int x = 5;
